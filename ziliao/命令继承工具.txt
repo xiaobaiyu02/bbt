@@ -1,0 +1,9 @@
+1.安装cygwin（windows平台上运行的类UNIX模拟环境）
+http://www.cygwin.com/install.html
+
+2.安装过程中添加tmux（多个控制台的终端复用软件），git，vim，rsync，wget等
+
+3.常用命令
+rsync -avz {resources,js,views,css,img,personal_login,built} root@172.16.201.188:/var/www/html
+
+wget -m http://echarts.baidu.com/index.html
